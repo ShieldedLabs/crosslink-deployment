@@ -6,6 +6,7 @@ Why Hybrid Proof-of-Work/Proof-of-Stake?
 * It reduces supply of ZEC by locking up staked ZEC and increases demand for ZEC by giving people something else to do with it. Both reducing supply and increasing demand put upward pressure on the price of ZEC. This is good because the price of ZEC is the fuel for the mission and attracts users.
 * It adds finality, which protects users from being robbed (with hybrid protection), reduces deposit times at CEXes and other services, and enables bridges.
 * It lays the foundation for future improvements, such as cross-chain interop and scalability.
+* Proof of Stake based consensus requires a fraction of the power required by comparably secure Proof of Work consensus.
 
 UX goals
 ---
