@@ -20,12 +20,15 @@ This list of [UX Goals](https://github.com/ShieldedLabs/crosslink-deployment/lab
 
 Requirements
 ---
-* Zcash transactions come with a kind of finality which protects the users as much as possible against all possible attacks, and is sufficient for services such as cross-chain bridges and centralized exchanges.
-* Users can delegate their ZEC and earn rewards, safely and while needing to learn only the minimal number of new concepts.
+
+This list of [Requirements](https://github.com/ShieldedLabs/crosslink-deployment/labels/Requirement) is tracked on GitHub.
+
+* [GH #18](https://github.com/ShieldedLabs/crosslink-deployment/issues/18): Zcash transactions come with a kind of finality which protects the users as much as possible against all possible attacks, and is sufficient for services such as cross-chain bridges and centralized exchanges.
+* [GH #19](https://github.com/ShieldedLabs/crosslink-deployment/issues/19): Users can delegate their ZEC and earn rewards, safely and while needing to learn only the minimal number of new concepts.
     * Delegating to a validator does not enable the validator to steal your funds.
     * Delegating to a validator does not leak information that links the user's action to other information about them, such as their IP address, their other ZEC holdings that they are choosing not to stake, or their previous or future transactions.
-* The time-to-market and the risk of Shielded Labs's First Deployment of Crosslink is minimized: the benefits listed above start accruing as soon as safely possible.
-* Activating Crosslink on Zcash mainnet retains as much as possible of Zcash users's safety, security, privacy, and availability guarantees.
+* [GH #20](https://github.com/ShieldedLabs/crosslink-deployment/issues/20): The time-to-market and the risk of Shielded Labs's First Deployment of Crosslink is minimized: the benefits listed above start accruing as soon as safely possible.
+* [GH #21](https://github.com/ShieldedLabs/crosslink-deployment/issues/21): Activating Crosslink on Zcash mainnet retains as much as possible of Zcash users' safety, security, privacy, and availability guarantees.
 
 Trade-offs
 ---
