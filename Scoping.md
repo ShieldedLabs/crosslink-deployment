@@ -1,6 +1,8 @@
 Scoping for Shielded Labs's first deployment of Crosslink
 ===
 
+**Progress Tracking:** The top-level goals from this document are tracked as GitHub issues with the [Scoping](https://github.com/ShieldedLabs/crosslink-deployment/labels/Scoping) label.
+
 Why Hybrid Proof-of-Work/Proof-of-Stake?
 ---
 * It reduces supply of ZEC by locking up staked ZEC and increases demand for ZEC by giving people something else to do with it. Both reducing supply and increasing demand put upward pressure on the price of ZEC. This is good because the price of ZEC is the fuel for the mission and attracts users.
@@ -18,10 +20,10 @@ This list of [UX Goals](https://github.com/ShieldedLabs/crosslink-deployment/lab
 * [GH #15](https://github.com/ShieldedLabs/crosslink-deployment/issues/15): Unsophisticated users (who understand little about crypto and do not use specialized tools) delegate ZEC and get rewards from their mobile wallet.
 * [GH #16](https://github.com/ShieldedLabs/crosslink-deployment/issues/16): Users run validators and get rewards. (It is okay if validator operators have to be users who understand a lot and can use specialized tools).
 
-Requirements
+Deployment Goals
 ---
 
-This list of [Requirements](https://github.com/ShieldedLabs/crosslink-deployment/labels/Requirement) is tracked on GitHub.
+This list of [Deployment Goals](https://github.com/ShieldedLabs/crosslink-deployment/labels/Deployment%20Goals) is tracked on GitHub.
 
 * [GH #18](https://github.com/ShieldedLabs/crosslink-deployment/issues/18): Zcash transactions come with a kind of finality which protects the users as much as possible against all possible attacks, and is sufficient for services such as cross-chain bridges and centralized exchanges.
 * [GH #19](https://github.com/ShieldedLabs/crosslink-deployment/issues/19): Users can delegate their ZEC and earn rewards, safely and while needing to learn only the minimal number of new concepts.
