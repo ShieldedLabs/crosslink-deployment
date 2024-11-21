@@ -5,9 +5,14 @@ Scoping for Shielded Labs's first deployment of Crosslink
 
 Why Hybrid Proof-of-Work/Proof-of-Stake?
 ---
-* It reduces supply of ZEC by locking up staked ZEC and increases demand for ZEC by giving people something else to do with it. Both reducing supply and increasing demand put upward pressure on the price of ZEC. This is good because the price of ZEC is the fuel for the mission and attracts users.
-* It adds finality, which protects users from being robbed (with hybrid protection), reduces deposit times at CEXes and other services, and enables bridges.
-* It lays the foundation for future improvements, such as cross-chain interop and scalability.
+* Staking ZEC competes with selling ZEC, thus reducing the supply of ZEC for sale in the market, and the option to stake ZEC increases utility and therefore demand for ZEC. Reducing supply and increasing demand both put upward pressure on the price of ZEC. This is good because the price of ZEC is the fuel for the mission and attracts users.
+* Proof-of-Stake adds economic finality, which protects users from being robbed, reduces and unifies [deposit times at centralized exchanges](https://zechub.wiki/using-zcash/custodial-exchanges) and other services and improves the safety and efficiency of bridges.
+* Proof-of-Stake provides finality more efficiently than Proof-of-Work – at a lower cost in terms of both economics and energy usage. This makes Zcash more secure – i.e. better security for the cost – and more sustainable – i.e. maintain security even as issuance reduces over time.
+* Staking allows a larger number of users to participate actively in the network than mining does, and to become direct recipients of newly created ZEC from the blockchain. This increases the size and decentralization of the network of users.
+* About the economic disadvantage of a smaller miner/validator/delegator competing with a larger operation:
+  * In Proof-of-Work, smaller miners have a substantial economic disadvantage compared to larger mining operations.
+  * In Proof-of-Stake, smaller validators have an economic disadvantage compared to larger validating services, but the disadvantage is not as pronounced as in Proof-of-Work mining.
+  * In Proof-of-Stake, smaller delegators compete on a level playing field with larger delegators, earning roughly the same reward with roughly the same risk. (Note that delegators get less reward than validators.)
 
 UX goals
 ---
