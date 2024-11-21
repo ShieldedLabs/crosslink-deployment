@@ -7,7 +7,7 @@ Scoping for Shielded Labs's first deployment of Crosslink
 
 ## Why add Proof-of-Stake?
 
-* Staking ZEC competes with selling ZEC, thus reducing the supply of ZEC for sale in the market, and the option to stake ZEC increases utility and therefore demand for ZEC. Reducing supply and increasing demand both put upward pressure on the price of ZEC. This is good because the price of ZEC is the fuel for the mission and attracts users.
+* Staking ZEC replaces sell pressure from mining pools with buy pressure from validators. Reducing supply and increasing demand can potentiially put upward pressure on the price of ZEC. This is good because the price of ZEC is the fuel for the mission and attracts users.
 * Proof-of-Stake adds economic finality, which protects users from being robbed, reduces and unifies [deposit times at centralized exchanges](https://zechub.wiki/using-zcash/custodial-exchanges) and other services and improves the safety and efficiency of bridges.
 * Proof-of-Stake provides finality more efficiently than Proof-of-Work – at a lower cost in terms of both economics and energy usage. This makes Zcash both more secure (provide better security for the same cost) and more sustainable (provide security long-term even as the rate of issuance shrinks).
 * Staking allows a larger number of users to participate actively in the network than mining does, and to become direct recipients of newly created ZEC from the blockchain. This increases the size and decentralization of the network of users and stakeholders.
