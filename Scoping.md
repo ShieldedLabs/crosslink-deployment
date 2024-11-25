@@ -18,7 +18,7 @@ Scoping for Shielded Labs's first deployment of Crosslink
 
 ## Why use a Hybrid Proof-of-Stake plus Proof-of-Work system?
 
-* Proof-of-Work provides a different and complementary kind of security that Proof-of-Stake doesn’t: preventing attackers from re-using resources in attacks. Hybrid finality provides a stronger kind of protection for users than pure-Proof-of-Stake finality, and thus lays a secure foundation for future scalability improvements.
+* Proof-of-Work provides a different and complementary kind of security that Proof-of-Stake doesn’t: preventing attackers from re-using resources in attacks. Hybrid finality--which leverages both kinds of security--provides a stronger kind of protection for users than pure-Proof-of-Stake finality, and thus lays a secure foundation for future scalability improvements.
 * Proof-of-Work allows people to earn ZEC by mining, even if they don’t already own any ZEC and they can’t buy ZEC on an exchange.
 * Proof-of-Work facilitates a ZEC->fiat->ZEC economy – rewards from mining have to be mostly spent on purchasing real-world goods and services like electricity and computing hardware (ASICs), which means transaction flows between ZEC and fiat. In contrast, rewards from staking can be reinvested directly into staking, which doesn’t require converting to fiat (although on the other hand it is good because it has those positive effects on supply and demand described above).
 * Keeping Proof-of-Work in addition to adding Proof-of-Stake means that in addition to all of the stakers, we also keep miners as active participants in the network and as recipients of ZEC, increasing the total size and diversity of the Zcash network and the ZEC economy.
