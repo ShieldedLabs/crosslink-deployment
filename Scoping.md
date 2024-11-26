@@ -17,8 +17,10 @@ This list of [UX Goals](https://github.com/ShieldedLabs/crosslink-deployment/lab
 * [GH #10](https://github.com/ShieldedLabs/crosslink-deployment/issues/10): Users justifiedly feel safe about the finality of their incoming Zcash transactions.
 * [GH #11](https://github.com/ShieldedLabs/crosslink-deployment/issues/11): Services are willing to rely on incoming Zcash transaction finality. E.g. Coinbase re-enables market orders and reduces required confirmations to a nice small number like 10. All or most services rely on the same canonical (protocol-provided) finality instead of enforcing [their own additional delays or conditions](https://zechub.wiki/using-zcash/custodial-exchanges), and so the user experience is that transaction finality is predictable and recognizable across services.
 * [GH #14](https://github.com/ShieldedLabs/crosslink-deployment/issues/14): Other services that require finality, such as cross-chain bridges, are willing to rely on Zcash’s finality.
-* [GH #15](https://github.com/ShieldedLabs/crosslink-deployment/issues/15): Unsophisticated users (who understand little about crypto and do not use specialized tools) delegate ZEC and get rewards from their mobile wallet.
+* [GH #15](https://github.com/ShieldedLabs/crosslink-deployment/issues/15): Casual users (who understand little about crypto and do not use specialized tools such as a Linux user interface) delegate ZEC and get rewards from their mobile wallet. They have to learn a minimal set of new concepts in order to do this.
 * [GH #16](https://github.com/ShieldedLabs/crosslink-deployment/issues/16): Users run validators and get rewards. (It is okay if validator operators have to be users who understand a lot and can use specialized tools).
+
+_Shielded Labs’s First Deployment of Crosslink is not done until substantial numbers of real users are actually gaining these five benefits._
 
 Deployment Goals
 ---
