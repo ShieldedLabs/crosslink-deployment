@@ -31,7 +31,7 @@ This list of [Deployment Goals](https://github.com/ShieldedLabs/crosslink-deploy
 * [GH #19](https://github.com/ShieldedLabs/crosslink-deployment/issues/19): Users can delegate their ZEC and earn rewards, safely and while needing to learn only the minimal number of new concepts.
     * Delegating to a validator does not enable the validator to steal your funds.
     * Delegating to a validator does not leak information that links the user's action to other information about them, such as their IP address, their other ZEC holdings that they are choosing not to stake, or their previous or future transactions.
-* [GH #20](https://github.com/ShieldedLabs/crosslink-deployment/issues/20): The time-to-market and the risk of Shielded Labs's First Deployment of Crosslink is minimized: the benefits listed above start accruing as soon as safely possible.
+* [GH #20](https://github.com/ShieldedLabs/crosslink-deployment/issues/20): The time-to-market and the risk of Shielded Labs's First Deployment of Crosslink is minimized: the benefits listed above start accruing to users as soon as safely possible.
 * [GH #21](https://github.com/ShieldedLabs/crosslink-deployment/issues/21): Activating Crosslink on Zcash mainnet retains as much as possible of Zcash users' safety, security, privacy, and availability guarantees.
 
 Trade-offs
