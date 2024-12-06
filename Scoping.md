@@ -3,11 +3,26 @@ Scoping for Shielded Labs's first deployment of Crosslink
 
 **Progress Tracking:** The top-level goals from this document are tracked as GitHub issues with the [Scoping](https://github.com/ShieldedLabs/crosslink-deployment/labels/Scoping) label.
 
-Why Hybrid Proof-of-Work/Proof-of-Stake?
----
-* It reduces supply of ZEC by locking up staked ZEC and increases demand for ZEC by giving people something else to do with it. Both reducing supply and increasing demand put upward pressure on the price of ZEC. This is good because the price of ZEC is the fuel for the mission and attracts users.
-* It adds finality, which protects users from being robbed (with hybrid protection), reduces deposit times at CEXes and other services, and enables bridges.
-* It lays the foundation for future improvements, such as cross-chain interop and scalability.
+# Rationale
+
+## Why add Proof-of-Stake?
+
+* Staking ZEC replaces sell pressure from mining pools with buy pressure from validators. Reducing supply and increasing demand can potentiially put upward pressure on the price of ZEC. This is good because the price of ZEC is the fuel for the mission and attracts users.
+* Proof-of-Stake adds economic finality, which protects users from being robbed, reduces and unifies [deposit times at centralized exchanges](https://zechub.wiki/using-zcash/custodial-exchanges) and other services and improves the safety and efficiency of bridges.
+* Proof-of-Stake provides finality more efficiently than Proof-of-Work – at a lower cost in terms of both economics and energy usage. This makes Zcash both more secure (provide better security for the same cost) and more sustainable (provide security long-term even as the rate of issuance shrinks).
+* Staking allows a larger number of users to participate actively in the network than mining does, and to become direct recipients of newly created ZEC from the blockchain. This increases the size and decentralization of the network of users and stakeholders.
+* About the economic disadvantage of a smaller miner/validator/delegator competing with a larger operation:
+  * In Proof-of-Work, smaller miners have a substantial economic disadvantage compared to larger mining operations.
+  * In Proof-of-Stake, smaller validators have an economic disadvantage compared to larger validating services, but the disadvantage is not as pronounced as in Proof-of-Work mining.
+  * In Proof-of-Stake, smaller delegators compete on a level playing field with larger delegators, earning roughly the same reward with roughly the same risk. (Note that delegators get less reward than validators.)
+
+## Why use a Hybrid Proof-of-Stake plus Proof-of-Work system?
+
+* Proof-of-Work provides a different and complementary kind of security that Proof-of-Stake doesn’t: preventing attackers from re-using resources in attacks. Hybrid finality--which leverages both kinds of security--provides a stronger kind of protection for users than pure-Proof-of-Stake finality, and thus lays a secure foundation for future scalability improvements.
+* Proof-of-Work allows people to earn ZEC by mining, even if they don’t already own any ZEC and they can’t buy ZEC on an exchange.
+* Proof-of-Work facilitates a ZEC->fiat->ZEC economy – rewards from mining have to be mostly spent on purchasing real-world goods and services like electricity and computing hardware (ASICs), which means transaction flows between ZEC and fiat. In contrast, rewards from staking can be reinvested directly into staking, which doesn’t require converting to fiat (although on the other hand it is good because it has those positive effects on supply and demand described above).
+* Keeping Proof-of-Work in addition to adding Proof-of-Stake means that in addition to all of the stakers, we also keep miners as active participants in the network and as recipients of ZEC, increasing the total size and diversity of the Zcash network and the ZEC economy.
+
 
 UX goals
 ---
