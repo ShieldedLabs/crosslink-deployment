@@ -30,11 +30,11 @@ The active list of [Documentation Deliverables](https://github.com/ShieldedLabs/
 
 ## External Validation Partnerships
 
-While not deliverables per se, a key strategy we'll use for gauging our success is to establish working relationships with representative stakeholders for these categories:
+While not deliverables per se, a key strategy we'll use for gauging our success is to establish working relationships with partner teams which are representative stakeholders for these categories:
 
 - Wallet developers
 - Validators
 - Exchanges
 - Bridges, DEXes, or other protocol-integration product teams
 
-Our success criteria require user-facing in-production products in these categories (with the first three prioritized). In order to meet these criteria, we need to engage with high quality partners to serve as representative stakeholders relatively early in the process, as the prototype approaches a usable state.
+Our success criteria require user-facing in-production products in these categories (with the first three prioritized). In order to meet these criteria, we need to engage with high quality partners to serve as representative stakeholders relatively early in the process, as the prototype approaches a usable state. We track ongoing [Partner Validation](https://github.com/ShieldedLabs/crosslink-deployment/labels/Partner%20Validation) goals on GitHub.
