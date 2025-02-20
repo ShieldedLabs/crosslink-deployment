@@ -1,6 +1,10 @@
 # Zebra Collaboration
 
-In order to successfully deploy a protocol upgrade to Zcash with Crosslink many things have to come together. From the perspective of the Shielded Labs engineering team, (TODO: insert intro text here).
+In order to successfully deploy a protocol upgrade to Zcash with Crosslink many things have to come together. From the perspective of the Shielded Labs engineering team, we would like to:
+
+- Maintain a "doubly-forked" version of Zebra, with an organization fork and a fork for staging changes to upstream
+- Massively scale back CI to just crosslink and crosslink-adjacent work, and regression tests.
+- Maintain a predictable schedule of pulling changes from upstream (front-porting) and creating draft PRs to run the full battery of official Zebra tests.
 
 ## Zebra Prototype
 
