@@ -48,6 +48,7 @@ This list of [Deployment Goals](https://github.com/ShieldedLabs/crosslink-deploy
     * Delegating to a validator does not leak information that links the user's action to other information about them, such as their IP address, their other ZEC holdings that they are choosing not to stake, or their previous or future transactions.
 * [GH #20](https://github.com/ShieldedLabs/crosslink-deployment/issues/20): The time-to-market and the risk of Shielded Labs's First Deployment of Crosslink is minimized: the benefits listed above start accruing to users as soon as safely possible.
 * [GH #21](https://github.com/ShieldedLabs/crosslink-deployment/issues/21): Activating Crosslink on Zcash mainnet retains as much as possible of Zcash users' safety, security, privacy, and availability guarantees.
+* The first deployment of Crosslink is neutral with regard to Zcash governance -- it doesn't change anything about Zcash governance.
 
 Trade-offs
 ---
@@ -56,5 +57,10 @@ Goals which we currently believe are not safely achievable in this first deploym
 * Improving Zcash's bandwidth (number of transactions per time) or latency (time for a transaction).
 * Deploying cross-chain interoperation such as the Inter-Blockchain Communication protocol (IBC) or Cross-Chain Interoperability Protocol (CCIP).
 * Supporting a large number of validators so that any user who wants to run their own validator can do so.
+
+Non-Goals
+---
+
+* The consensus mechanism is needed only to prevent double-spending/multi-spending/rollback attacks. It is not needed for censorship-resistance, since that is provided by end-to-end encryption, and it is not needed for counterfeiting-resistance, since that is provided by two layers of defense: proofs and turnstiles. So censorship-resistance and counterfeiting-resistance are non-goals for (at least) the first deployment of Crosslink.
 
 [For a much more detailed and "living/work-in-progress" analysis of possible requirements, goals, and trade-offs, see this google doc: https://docs.google.com/document/d/1GZYQgQdzL1-GNJLWmt5CbTFXo1nuufkL7-gg7az_M2Q/edit?tab=t.0 .]
