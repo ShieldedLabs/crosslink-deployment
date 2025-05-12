@@ -49,6 +49,12 @@ This list of [Deployment Goals](https://github.com/ShieldedLabs/crosslink-deploy
 * [GH #20](https://github.com/ShieldedLabs/crosslink-deployment/issues/20): The time-to-market and the risk of Shielded Labs's First Deployment of Crosslink is minimized: the benefits listed above start accruing to users as soon as safely possible.
 * [GH #21](https://github.com/ShieldedLabs/crosslink-deployment/issues/21): Activating Crosslink on Zcash mainnet retains as much as possible of Zcash users' safety, security, privacy, and availability guarantees.
 
+Non Goals
+---
+* Any Proof-of-Stake or Proof-of-Work consensus mechanism does not need to provide censorship resistance as this is already provided by shielded transactions.
+* The consensus mechanism is not what guarantees correct ledger logic on chain. All nodes will validate ledger logic. If the consensus publishes invalid blocks that for example, mint new coins, all other nodes in the network will reject these blocks. The chain may halt and may require manual intervention to restart, but it will never violate ledger logic.
+* Proof-of-Stake will not have anything to do with ZCash governance in any way shape or form. Similar to how Proof-of-Work has nothing to do with governance.
+
 Trade-offs
 ---
 
